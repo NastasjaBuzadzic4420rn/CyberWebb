@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@500&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@500&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet"> -->
+        <link rel="stylesheet" href="main.css">
+        <title>CyberWebb|Business hosting</title>
+        <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div class="d-block d-lg-none">
+            <nav class="navbar">
+                <div class="navbar-hamburger" onclick="overlayMenu()">
+                  <div class="hamburger-line"></div>
+                  <div class="hamburger-line"></div>
+                  <div class="hamburger-line"></div>
+                </div>
+                <div class="overlay" id="overlay">
+                  <div class="overlay-content">
+                    <a href="index.html">Naslovna</a>
+                    <a href="ponuda.html">Ponude</a>
+                    <a href="o-nama.html">O nama</a>
+                  </div>
+                </div>
+            </nav>
+            <div class="main-container" onclick="exitMenu()">
+                <header class="d-flex flex-column justify-content-center align-items-center py-3">
+                    <img id="ss-logo" src="favicon/android-icon-144x144.png" alt="Logo">
+                    <h1 id="ss-title">CyberWebb</h1>
+                </header> 
+
+                <div class="body-container-small">
+                    <div class="wh-title-small" id="web">
+                        BUSINESS
+                    </div>
+                    <div class="wh-title-small">
+                        HOSTING
+                    </div>
+
+                    <div class="wh-text-small">
+                        Biznis SSD hosting paketi namenjeni su kako poslovnim korisnicima tako i svim korisnicima koji imaju potrebu za većom količinom sistemskih resursa poput više procesorskih jezgara i veće količine radne (RAM) memorije kao i velike količine prostora na hard disku.
+                    </div>
+
+                    <div class="paketi-wh-small">
+                        <div class="ptitle-wh-small">Paketi</div>
+                        <div class="ptext-wh-small">
+                            Svi paketi imaju dnevni backup, besplatan ssl sertifikat, cPanel.
+                        </div>
+
+                        <div class="wh-squares-small">
+                            <div class="junior">
+                                <span style="font-weight: bold;">Rookie</span>
+                                <ul>
+                                    <li>25GB SSD</li>
+                                    <li>25TB protok</li>
+                                    <li>CPU: 2 cores</li>
+                                    <li>RAM: 2GB</li>
+                                    <li>Addon domeni: 2</li>
+                                    <li>Mesečna cena: 2500</li>
+                                    <li>Godišnja cena: 25000</li>
+                                </ul>
+                            </div>
+                            <div class="medior">
+                                <span style="font-weight: bold;">Progressive</span>
+                                <ul>
+                                    <li>75GB SSD</li>
+                                    <li>75TB protok</li>
+                                    <li>CPU: 4 cores</li>
+                                    <li>RAM: 4GB</li>
+                                    <li>Addon domeni: 5</li>
+                                    <li>Mesečna cena: 8500</li>
+                                    <li>Godišnja cena: 85000</li>
+                                </ul>
+                            </div>
+                            <div class="senior">
+                                <span style="font-weight: bold;">Professional</span>
+                                <ul>
+                                    <li>250GB SSD</li>
+                                    <li>250TB protok</li>
+                                    <li>CPU: 8 cores</li>
+                                    <li>RAM: 8GB</li>
+                                    <li>Addon domeni: 15</li>
+                                    <li>Mesečna cena: 16000</li>
+                                    <li>Godišnja cena: 160000</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+                
+
+                <footer>
+                    <div class="footer-line"></div>
+                    <div class="container">
+                    <div class="row">
+                        <div class="footer-text-small">
+                            IMATE DILEMU ILI PITANJE PRE KUPOVINE?<br>
+                            Pozovite nas<br>
+                            Ponedeljak - petak 09-17h<br>
+                            +381601234567<br>
+                        </div>
+                        <div class="footer-text-small">
+                            IZABERITE POUZADNOG PARTNERA!<br>
+                            PIB:01234567<br>
+                            Matični broj: 00123435<br>
+                            Već 12 godina sa Vama.<br>
+                        </div>
+                        <div class="footer-logo-small">
+                            <img src="favicon(black&white)/apple-icon-114x114.png">
+                        </div>
+                    </div>
+                    </div>    
+                </footer> 
+            </div>
+        </div>
+
+        <div class="d-none d-lg-block">
+            <div class="body-container-big">
+                <header class="d-flex justify-content-between align-items-center">
+                    <div class="header-container">
+                        <img id="bs-logo" src="favicon/android-icon-144x144.png" alt="Logo">
+                        <h1 id="bs-title">CyberWebb</h1>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn btn-on-top" id="naslovnaButton">Naslovna</button>
+                        <button class="btn btn-on-top" id="ponudaButton">Ponuda</button>
+                        <button class="btn btn-on-top" id="oNamaButton">O nama</button>
+                    </div>
+                </header> 
+
+                <div class="opis-wh-big">
+                    <div class="wh-title-big">
+                        <div id="web">
+                            BUSINESS
+                        </div>
+                        <div>
+                            HOSTING
+                        </div>
+                    </div>
+
+                    <div class="wh-text-big">
+                        Biznis SSD hosting paketi namenjeni su kako poslovnim korisnicima tako i svim korisnicima koji imaju potrebu za većom količinom sistemskih resursa poput više procesorskih jezgara i veće količine radne (RAM) memorije kao i velike količine prostora na hard disku.
+                    </div>
+                </div>
+
+                <div class="paketi-wh-big">
+                    <div class="ptitle-wh-big">Paketi</div>
+                    <div class="ptext-wh-big">
+                        Svi paketi imaju dnevni backup, besplatan ssl sertifikat, cPanel, neograničen mesečni saobraćaj.
+                    </div>
+
+                    <div class="wh-squares-big">
+                        <div class="left">
+                            <div class="junior">
+                                <span style="font-weight: bold;">Rookie</span>
+                                <ul>
+                                    <li>25GB SSD</li>
+                                    <li>25TB protok</li>
+                                    <li>CPU: 2 cores</li>
+                                    <li>RAM: 2GB</li>
+                                    <li>Addon domeni: 2</li>
+                                    <li>Mesečna cena: 2500</li>
+                                    <li>Godišnja cena: 25000</li>
+                                </ul>
+                            </div>
+                            <div class="senior">
+                                <span style="font-weight: bold;">Professional</span>
+                                <ul>
+                                    <li>250GB SSD</li>
+                                    <li>250TB protok</li>
+                                    <li>CPU: 8 cores</li>
+                                    <li>RAM: 8GB</li>
+                                    <li>Addon domeni: 15</li>
+                                    <li>Mesečna cena: 16000</li>
+                                    <li>Godišnja cena: 160000</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="medior">
+                            <span style="font-weight: bold;">Progressive</span>
+                            <ul>
+                                 <li>75GB SSD</li>
+                                    <li>75TB protok</li>
+                                    <li>CPU: 4 cores</li>
+                                    <li>RAM: 4GB</li>
+                                    <li>Addon domeni: 5</li>
+                                    <li>Mesečna cena: 8500</li>
+                                    <li>Godišnja cena: 85000</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            
+               
+            
+
+            <footer>
+                <div class="footer-line"></div>
+                <div class="footer-text-big">
+                    IMATE DILEMU ILI PITANJE PRE KUPOVINE?<br>
+                    Pozovite nas<br>
+                    Ponedeljak - petak 09-17h<br>
+                    +381601234567<br>
+                </div>
+                <div class="footer-text-big">
+                    IZABERITE POUZADNOG PARTNERA!<br>
+                    PIB:01234567<br>
+                    Matični broj: 00123435<br>
+                    Već 12 godina sa Vama.<br>
+                </div>
+                <div class="footer-logo-big">
+                    <img src="favicon(black&white)/apple-icon-114x114.png">
+                </div>
+            </footer> 
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+        
+    </body>
+</html>
