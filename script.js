@@ -60,7 +60,7 @@ document.getElementById("ponudaButton").addEventListener("click", function(){
 })
 
 document.getElementById("naslovnaButton").addEventListener("click", function(){
-    window.location.href = "index.html";
+    window.location.href = "naslovna.html";
 })
 
 document.getElementById("oNamaButton").addEventListener("click", function(){
